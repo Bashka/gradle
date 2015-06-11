@@ -1,5 +1,5 @@
 " Date Create: 2015-02-26 14:13:40
-" Last Change: 2015-02-26 14:23:21
+" Last Change: 2015-06-11 17:24:54
 " Author: Artur Sh. Mamedbekov (Artur-Mamedbekov@yandex.ru)
 " License: GNU GPL v3 (http://www.gnu.org/copyleft/gpl.html)
 
@@ -13,7 +13,7 @@ function! s:Class.list() " {{{
 endfunction " }}}
 
 function! s:Class.deploy() " {{{
-  call s:System.exe('gralde')
+  call s:System.exe('gradle')
 endfunction " }}}
 
 function! s:Class.run(task) " {{{
